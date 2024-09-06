@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Noto Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background-color: #163a24;
+    color: #FBFAF7;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+padding: 20px 0 20px 0;
+}
+.header__buttons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.btn{
+    background-color: #198C36;
+    padding: 15px 25px;
+    border-radius: 160px;
+}
+.first-section{
+    background-color: #163a24;
+    height: calc(100vh - 98px);
+    background-image: url(../img/fon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.first-section_text-block{
+    color: #FBFAF7;
+    max-width: 475px;
+}
+.section_title{
+    font-size: 48px;
+    font-weight: bold;
+}
+.section_sub-block{
+
+}
